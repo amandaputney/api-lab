@@ -1,8 +1,31 @@
+/* *{
+  display: flex;
+} */
+
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px "impact", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  color: #dae6eb;
+}
+
+body  {
+  background-color: cornflowerblue;
+}
+
+button {
+  color: cornflowerblue;
+  background-color: bisque;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  align-content: center;
+}
+
+#chucknorris {
+  height: 300px;
+  width: 300px;
+  
 }
