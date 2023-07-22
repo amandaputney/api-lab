@@ -16,6 +16,8 @@ const ROOT_URL = 'https://api.chucknorris.io/';
 //   // res.render('index', { title: 'Chuck Norris Joke Generator' });
 // });
 
+test
+
 router.get('/', async function(req, res, next) {
   const randomJoke = req.query.randomJoke;
   if (!randomJoke) return res.render('index', {jokeData: null});
